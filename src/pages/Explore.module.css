@@ -1,0 +1,15 @@
+.image{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+.body{
+    display: block;
+    width: 60%;
+    margin: auto;
+}

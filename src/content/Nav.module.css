@@ -1,0 +1,71 @@
+.nav{
+    display: inline;
+}
+
+.navbar {
+    z-index: 2;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 100%;
+    font-weight: bold;
+    display: inline-flexbox;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4%;
+    width: 100%;
+
+}
+.navitem:hover {
+    color: white;
+    font-size: 20px;
+}
+
+.navitem {
+    float:none;
+    text-decoration: none;
+    color: silver;
+    transition: width 2s;
+    transition: all .6s,box-shadow .08s ease-in;
+    font-style: normal;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+/* Logo */
+.logo{
+    z-index: 2;
+    height: 70px;
+    width: 50%;
+    margin:auto;
+    background-image: url("./BeRealocated.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.profile{
+    background-color: wheat;
+    border-color: white;
+    border: 10px;
+    border-radius: 100%;
+    top: 40px;
+    right: 45px;
+    width: 30px;
+    height: 30px;
+    position:absolute;
+    display: inline;
+    color: white;
+}
+
+.profileedge{
+    display: inline;
+    color: aliceblue;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+}

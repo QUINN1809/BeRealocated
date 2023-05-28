@@ -1,0 +1,112 @@
+.body-text {
+    font-size: medium;
+    color: #fff;
+    text-align: center;
+}
+
+.body-text-center {
+    font-size: medium;
+    color: #fff;
+    text-align: center;
+}
+
+.text-center {
+    z-index: 2;
+    opacity: 100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-null {
+    opacity: 0%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.e-calendar {
+    background-color: rgb(185, 253, 255);
+    border: 3px solid rgb(36, 76, 90);
+    font-family: verdana;
+    border: 2px solid;
+    color: #212529;
+    text-align: center;
+}
+
+.calendar-container {
+    width: 70%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+.task-header {
+    font-family: Verdana;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.button-camera {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: Verdana;
+  font-weight: bold;
+  height: 44px;
+  line-height: 1.15;
+  outline: none;
+  overflow: hidden;
+  padding: 0 0px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 90%;
+  border-radius: 15px;
+  transition-duration: 0.4s;
+  margin-left: 5%;
+
+}
+
+  .button-camera:hover {
+    background-color: #405cf5;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+  }
+
+  .image-style {
+    display: block;
+    width: 50%;
+    margin: auto;
+    opacity: 100%;
+  }
+
+  .null-style {
+    opacity: 0%;
+  }
+  
+  #lat{
+
+    text-align: center;
+    display: inline;
+    color: white;
+    width: 50%;
+    margin-left: 32%;
+  }
+  #long{
+    padding-left: 10px;
+    text-align:center;
+    display: inline;
+    color: white;
+    width: 50%;
+    margin: auto;
+  }

@@ -1,0 +1,10 @@
+.marker{
+    background-color: red;
+    width: 5px;
+    border-radius: 50%;
+    height: 10px;
+}
+
+.containerStyle {
+    border-radius: 10 px;
+}

@@ -1,0 +1,75 @@
+.profile{
+    display: block;
+    width: 100%;
+    margin: auto;
+    color: white;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.top{
+    background-color: beige;
+    color: black;
+    cursor: pointer;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: width 2s;
+    transition: all .6s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 90%;
+}
+
+.top:hover {
+    background-color: rgb(9, 78, 71); /* Green */
+    color: white;
+    transform: scale(1.1);
+    margin-bottom: 3px;
+  }
+
+.bottom{
+    background-color: beige;
+    color: black;
+    font-family: Verdana;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    padding: 0px 0px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: width 2s;
+    transition: all .6s,box-shadow .08s ease-in;
+}
+
+.bottom:hover {
+    background-color: rgb(9, 78, 71); /* Green */
+    color: white;
+    transform: scale(1.1);
+    margin-top: 2px;
+  }
+
+.text{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.signin{
+    width: 80px;
+    height: 20px;
+}
